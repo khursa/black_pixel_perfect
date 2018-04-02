@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+
+body {
+	font-family: 'IBM Plex Mono', monospace;
+	background-color: #252525;
+	position: relative;
+}
+
+h1 ~ div, h2 {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fdfdfd;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 56px;
+	text-align: center;
+	color: #ffffff;
+}
+
+h1 span {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.text {
+	font-size: 16px;
+	font-weight: 500;
+	width: 642px;
+	line-height: 1.74;
+	letter-spacing: 1.2px;
+	top: 129px;
+}
+
+.text span:nth-child(odd) {
+	border-bottom: 1px solid #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.text span:nth-child(even) {
+	border-bottom: 1px solid #818181;
+	background-color: #818181;
+	color: #000000;
+}
+
+.black_block {
+	top: 310px;
+	width: 200px;
+	height: 200px;
+	border: 5px solid #ffffff;
+	background-color: #000000;
+}
+
+h2 {
+	top: 522px;
+	width: 684px;
+	font-weight: 800;
+}
+
+h2 span {
+	font-style: italic;
+}
+
+h2 + div {
+	width: 684px;
+	top: 593px;
+	left: 50%;
+	font-weight: 600;
+	transform: translateX(-50%);
+}
+
+h2 + div span {
+	text-decoration: underline;
+}
+
+.colors_container {
+	top: 619px;
+	width: 684px;
+}
+a {
+	border: 1px dashed #ffffff;
+	padding: 5px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:first-child {
+	background-color: #ff0000;
+}
+
+a:nth-child(even) {
+	background-color: #008100;
+}
+
+a:last-child {
+	background-color: #0000ff;
+}
